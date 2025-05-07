@@ -9,4 +9,4 @@ services:
       - "4000:4000"
     volumes:
       - .:/app
-    command: npx playwright test
+    command: ["npx", "playwright", "test"]

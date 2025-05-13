@@ -69,4 +69,4 @@ COPY . .
 EXPOSE 4000
 
 # Define the default command to run your app
-CMD ["npx", "playwright", "test"]
+CMD ["npx", "--no-install", "playwright", "test"]
